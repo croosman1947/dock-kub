@@ -6,4 +6,4 @@ COPY . /app
 
 RUN npm install
 
-ENTRYPOINT [ "node server.js" ]
+ENTRYPOINT [ "node", "server.js" ]
